@@ -9,7 +9,7 @@ https://github.com/matthewkojetin/IntroToProg-Python
 In this assignment I'll describe how to use a combination of lists and dictionaries to store data, how to retrieve data from a file and store it into a list or dictionary, and print custom error messages. I'll use this information to create a To do list script that allows you to manipulate the data and save it to file. I'll also describe the basics of functions.
 
 ## Loading list data from a file
-Last assignment we looked at list syntax (`listEx = [1,2,3]`) and how to write lists to a file. Building on that, you can also read data from an existing file when you open a text file in read mode. It's best to load the data into memory in order to work with it. To do this, pen the file in read mode, then loop through the contents to place it in a list object, split the data based on the commas, and append a table (another list) to include that row. For easy processing don't include spaces between data elements (Figure 1).
+Last assignment we looked at list syntax (`listEx = [1,2,3]`) and how to write lists to a file. Building on that, you can also read data from an existing file when you open a text file in read mode. It's best to load the data into memory in order to work with it. To do this, open the file in read mode, then loop through the contents to place it in a list object, split the data based on the commas, and append a table (another list) to include that row. For easy processing don't include spaces between data elements (Figure 1).
 
 ```Python
 lstTable = []
